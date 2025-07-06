@@ -26,26 +26,7 @@ Scalar replacement is an optimization that breaks down heap-allocated objects in
 
 ## Project Structure
 
-JavaScalarReplacement-main/
-├── MainClass.java # Main entry point
-├── pom.xml # Maven build file
-├── README.md # Project overview (you are here)
-├── .gitignore
-├── LICENSE
-├── .github/
-│ └── dependabot.yml # Dependency config
-├── src/
-│ ├── main/
-│ │ └── java/
-│ │ ├── com/laamella/javacfa/ # Control flow analyzer
-│ │ ├── com/scalarreplacement/ # Scalar replacement logic
-│ │ ├── example/ # Sample input: example3.java
-│ │ └── example_new/ # Sample output: example3.java
-│ └── test/
-│ ├── jar_files/ # all utility jar files 
-│ └── resources/
-│ └── compilation_unit/ # Test Java programs
-
+<pre> ## Project Structure JavaScalarReplacement-main/ ├── MainClass.java # Main entry point ├── pom.xml # Maven build file ├── README.md # Project overview (you are here) ├── .gitignore ├── LICENSE ├── .github/ │ └── dependabot.yml # Dependency config ├── src/ │ ├── main/ │ │ └── java/ │ │ ├── com/laamella/javacfa/ # Control flow analyzer │ │ ├── com/scalarreplacement/ # Scalar replacement logic │ │ ├── example/ # Sample input: example3.java │ │ └── example_new/ # Alternate input variant │ └── test/ │ ├── java/ # Unit tests │ └── resources/ │ └── compilation_unit/ # Test Java programs </pre>
 
 
 ---
